@@ -35,17 +35,31 @@ portfolio-analysis/
 ├── requirements.txt                  # List of Python dependencies
 └── README.md                         # Project documentation
 ```
+
 > **Note:** The raw S&P 500 historical stock prices file (`sp500_prices_all.csv`) is too large to include in the repo.  
 > Running `sp500_portfolio_analysis.ipynb` will automatically download the latest S&P 500 data from Yahoo Finance.
 
+## Getting Started
+
+1. Clone the repository:
+   git clone https://github.com/RayCirko/portfolio-analysis.git
+   cd portfolio-analysis
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Open `sp500_portfolio_analysis.ipynb` in Jupyter Notebook or Google Colab.  
+4. Run the notebook; all outputs will save in the `data/` folder.
+
+> **Optional:** The `sp500_tickers.csv` file provides a static list of tickers for offline use. The notebook will also fetch the latest tickers automatically from DataHub if this file is not present.
 
 ## Example Output
 Portfolio vs S&P 500 (Cumulative Return)  
 
+*Include a chart or screenshot here if desired*
 
 ## Author
-Ray Cirko
-rayxcirko@gmail.com  
-LinkedIn: https://www.linkedin.com/in/ray-c-786074110/ <br>
-GitHub: https://github.com/RayCirko 
-
+Ray Cirko  
+email: rayxcirko@gmail.com  
+LinkedIn: https://www.linkedin.com/in/ray-c-786074110/  
+GitHub: https://github.com/RayCirko
