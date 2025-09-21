@@ -27,15 +27,17 @@ It uses Python, `yfinance` for data collection, and standard financial metrics f
 ```
 portfolio-analysis/
 ├── data/
-│   ├── portfolio_summary.csv
-│   ├── portfolio_daily_returns.csv
-│   └── spy_price.csv
-├── sp500_portfolio_analysis.ipynb
-├── requirements.txt
-└── README.md
+│   ├── portfolio_summary.csv         # Portfolio summary output
+│   ├── portfolio_daily_returns.csv   # Portfolio daily returns output
+│   ├── spy_price.csv                 # Benchmark (SPY) data
+│   └── sp500_tickers.csv (optional)  # Optional: static list of S&P 500 tickers
+├── sp500_portfolio_analysis.ipynb    # Main Jupyter Notebook
+├── requirements.txt                  # List of Python dependencies
+└── README.md                         # Project documentation
 ```
-> Note: The raw S&P 500 price data is not included due to size.  
-> Run `sp500_portfolio_analysis.ipynb` to download the latest data automatically.
+> **Note:** The raw S&P 500 historical stock prices file (`sp500_prices_all.csv`) is too large to include in the repo.  
+> Running `sp500_portfolio_analysis.ipynb` will automatically download the latest S&P 500 data from Yahoo Finance.
+
 
 ## Example Output
 Portfolio vs S&P 500 (Cumulative Return)  
