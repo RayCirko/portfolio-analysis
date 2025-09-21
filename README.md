@@ -26,12 +26,13 @@ It uses Python, `yfinance` for data collection, and standard financial metrics f
 ## Project Structure
 ```
 portfolio-analysis/
-├── sp500_portfolio_analysis.ipynb   # Main Jupyter Notebook with analysis
-├── portfolio_summary.csv            # Portfolio summary output
-├── portfolio_daily_returns.csv      # Portfolio daily returns output
-├── spy_price.csv                    # Benchmark (SPY) data
-├── requirements.txt                 # List of dependencies
-└── README.md                        # Project documentation
+├── data/
+│   ├── portfolio_summary.csv
+│   ├── portfolio_daily_returns.csv
+│   └── spy_price.csv
+├── sp500_portfolio_analysis.ipynb
+├── requirements.txt
+└── README.md
 ```
 > Note: The raw S&P 500 price data is not included due to size.  
 > Run `sp500_portfolio_analysis.ipynb` to download the latest data automatically.
