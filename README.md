@@ -33,6 +33,8 @@ portfolio-analysis/
 ├── requirements.txt                 # List of dependencies
 └── README.md                        # Project documentation
 ```
+> Note: The raw S&P 500 price data is not included due to size.  
+> Run `sp500_portfolio_analysis.ipynb` to download the latest data automatically.
 
 ## Example Output
 Portfolio vs S&P 500 (Cumulative Return)  
