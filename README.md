@@ -1,7 +1,9 @@
 # Portfolio Performance Analysis vs S&P 500
 
-This project analyzes the performance of a hypothetical stock portfolio compared to the **S&P 500** benchmark.  
-It uses Python, yfinance for data collection, and standard financial metrics for performance evaluation.
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+This project analyzes the performance of a hypothetical stock portfolio compared to the S&P 500 benchmark. It demonstrates practical financial analysis, portfolio construction, and data visualization skills using Python and yfinance.
 
 ## Features
 - Download and clean 5 years of stock price data (S&P 500 constituents)  
@@ -87,6 +89,11 @@ This query calculates monthly averages of daily returns and cumulative returns, 
 **Result:** Screenshot: `figures/figure3_top_contributors.png`  
 
 This query lists the top 5 portfolio tickers contributing the most to overall return. It highlights which holdings drive the portfolio’s performance.
+
+## Key Insights
+- The top 10 portfolio stocks had higher Sharpe Ratios than the S&P 500 average.
+- Apple (AAPL) and Microsoft (MSFT) were the largest contributors to portfolio returns.
+- Monthly analysis revealed seasonal volatility patterns, with higher returns in Q4.
 
 ---
 
