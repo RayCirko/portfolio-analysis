@@ -4,7 +4,15 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 This project analyzes the performance of a hypothetical stock portfolio compared to the S&P 500 benchmark. It demonstrates practical financial analysis, portfolio construction, and data visualization skills using Python and yfinance.
-
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Example Output](#example-output)
+- [SQL Analysis](#sql-analysis)
+- [Key Insights](#key-insights)
+- [Author](#author)
 ## Features
 - Download and clean 5 years of stock price data (S&P 500 constituents)  
 - Calculate daily returns, annualized returns, and volatility  
