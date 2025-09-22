@@ -68,7 +68,7 @@ portfolio-analysis/
     pip install -r requirements.txt
 
 3. Open `sp500_portfolio_analysis.ipynb` in Jupyter Notebook or Google Colab.  
-   [Open in Google Colab](https://colab.research.google.com/github/RayCirko/portfolio-analysis/blob/main/sp500_portfolio_analysis.ipynb)
+   [Open in Google Colab](https://colab.research.google.com/drive/11dIFHaogzcdoTHFkQ5cFG6SYyyFaW1fd?usp=sharing)
 
 4. Run the notebook; all outputs will save in the `data/` folder.
 
