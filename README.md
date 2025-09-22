@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-This project analyzes the performance of a hypothetical stock portfolio compared to the S&P 500 benchmark. It demonstrates practical financial analysis, portfolio construction, and data visualization skills using Python and yfinance.
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -13,6 +12,10 @@ This project analyzes the performance of a hypothetical stock portfolio compared
 - [SQL Analysis](#sql-analysis)
 - [Key Insights](#key-insights)
 - [Author](#author)
+
+## Introduction
+This project analyzes the performance of a hypothetical stock portfolio compared to the S&P 500 benchmark. It demonstrates practical financial analysis, portfolio construction, and data visualization skills using Python and yfinance.
+
 ## Features
 - Download and clean 5 years of stock price data (S&P 500 constituents)  
 - Calculate daily returns, annualized returns, and volatility  
@@ -65,6 +68,8 @@ portfolio-analysis/
     pip install -r requirements.txt
 
 3. Open `sp500_portfolio_analysis.ipynb` in Jupyter Notebook or Google Colab.  
+   [Open in Google Colab](https://colab.research.google.com/github/RayCirko/portfolio-analysis/blob/main/sp500_portfolio_analysis.ipynb)
+
 4. Run the notebook; all outputs will save in the `data/` folder.
 
 > **Optional:** The `sp500_tickers.csv` file provides a static list of tickers for offline use. The notebook will also fetch the latest tickers automatically from DataHub if this file is not present.
