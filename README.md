@@ -24,6 +24,7 @@ It uses Python, yfinance for data collection, and standard financial metrics for
 - Plotly (optional for interactive charts)  
 
 ## Project Structure
+```
 portfolio-analysis/
     data/
         portfolio_summary.csv         # Portfolio summary output
@@ -40,7 +41,7 @@ portfolio-analysis/
     sp500_portfolio_analysis.ipynb    # Main Jupyter Notebook
     requirements.txt                  # List of Python dependencies
     README.md                         # Project documentation
-
+```
 > **Note:** The raw S&P 500 historical stock prices file (`sp500_prices_all.csv`) is too large to include in the repo.  
 > Running `sp500_portfolio_analysis.ipynb` will automatically download the latest S&P 500 data from Yahoo Finance.
 
