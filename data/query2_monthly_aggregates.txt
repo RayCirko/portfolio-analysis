@@ -1,0 +1,7 @@
+SELECT 
+    DATE_TRUNC('month', Date) AS Month,
+    AVG(Daily_Returns) AS Avg_Portfolio_Daily_Return,
+    AVG(Cum_Return) AS Avg_Portfolio_Cum_Return
+FROM portfolio_daily_returns
+GROUP BY Month
+ORDER BY Month;

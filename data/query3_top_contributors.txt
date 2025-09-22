@@ -1,0 +1,7 @@
+SELECT 
+    Ticker,
+    Portfolio_Weight,
+    Weighted_Return
+FROM portfolio_summary
+ORDER BY Weighted_Return DESC
+LIMIT 5;

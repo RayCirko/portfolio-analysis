@@ -1,0 +1,7 @@
+SELECT 
+    p.Date,
+    p.Cum_Return AS Portfolio_Cum_Return,
+    s.SPY_Cum_Return
+FROM portfolio_daily_returns p
+JOIN spy_price s ON p.Date = s.Date
+ORDER BY p.Date;
