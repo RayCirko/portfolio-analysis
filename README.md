@@ -75,9 +75,9 @@ portfolio-analysis/
 > **Optional:** The `sp500_tickers.csv` file provides a static list of tickers for offline use. The notebook will also fetch the latest tickers automatically from DataHub if this file is not present.
 
 ## Example Output
-Portfolio Equity Selection <br>
-<img width="1001" height="701" alt="image" src="https://github.com/user-attachments/assets/01d51ca5-8791-44f9-a352-791d0d4c199d" /> <br> 
-Portfolio vs S&P 500 (Cumulative Return) <br> 
+### Portfolio Equity Selection <br>
+<img width="1155" height="701" alt="image" src="https://github.com/user-attachments/assets/99315543-4e3f-4872-89e4-6d8bf5a6c03f" /> <br> 
+### Portfolio vs S&P 500 (Cumulative Return) <br> 
 <img width="1001" height="701" alt="image" src="https://github.com/user-attachments/assets/b66d726b-854a-4aec-a65a-0a5a6617a301" /> <br>  
 
 
